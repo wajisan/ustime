@@ -48,7 +48,7 @@ impl AppConfig {
                 Ok(app_config)
             },
             Err(e) => {
-                println!("Oh no");
+                println!("Invalid Config");
                 Err(e.into())
             }
         }

@@ -2,6 +2,7 @@ mod config;
 mod models;
 mod controllers;
 mod routes;
+mod database;
 
 use actix_web::{HttpServer, App};
 use std::io;
